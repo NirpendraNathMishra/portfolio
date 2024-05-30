@@ -1,40 +1,26 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 const Shutter = () => {
+  const resumeLink = "https://drive.google.com/file/d/1AJYMUQzwQjCwKg7MKyADI-Tw8isW6fpS/view";
+
+  useEffect(() => {
+    window.location.href = resumeLink;
+  }, [resumeLink]);
+
   return (
-    <motion.div
-      className="welcome-text"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ ease: "easeIn", duration: "1", type: "spring" }}
-      exit={{ x: "-100%" }}
-    >
+    <div className="redirecting-container">
       <Helmet>
-        <title>Shutterbug - Photography Collection by Nirpendra Nath Mishra</title>
+        <title>Redirecting to Resume - Nirpendra Nath Mishra</title>
         <meta
           name="description"
-          content="Explore a collection of photos taken by Nirpendra Nath Mishra in Shutterbug. Stay tuned for captivating visual moments."
+          content="Redirecting to the resume of Nirpendra Nath Mishra."
         />
       </Helmet>
-
-      <h1 className="md:text-5xl mb-6 text-3xl text-center font-bold text-white ">
-        Shutter
-        <span
-          className={`text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis`}
-        >
-          bug
-        </span>
+      <h1 className="text-center text-xl font-bold text-white">
+        Redirecting to the resume...
       </h1>
-      <h2 className="md:text-3xl text-xl text-center font-bold text-white/60 ">
-        Explore a captivating collection of photos taken by Nirpendra Nath Mishra.
-        <br /> Stay tuned for more visual moments.
-      </h2>
-      <h2 className="md:text-xl text-lg text-center font-bold text-white/30 ">
-        Coming Soon..
-      </h2>
-    </motion.div>
+    </div>
   );
 };
 
