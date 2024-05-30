@@ -52,7 +52,7 @@ const About = () => {
             I enjoy Web Dev and Open Source, working with Go, Cloudflare, and Kubernetes. <br /> I share tech insights on my socials and am always open to new opportunities and collaborations.
           </p>
 
-            <div className=" p-4 bg-gray-600/20 flex gap-4 justify-between items-center rounded-lg mt-12">
+            <div className=" p-3 bg-gray-600/20 flex gap-3 justify-between items-center rounded-lg mt-12">
               <div className="text-xl sm:text-3xl h-full text-[#ef4444]/60">
                 <AiOutlineInfoCircle></AiOutlineInfoCircle>
               </div>
@@ -64,7 +64,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="sm:w-[2500px] w-1/2 m-auto">
+          <div className="sm:w-[2000px] w-1/2 m-auto">
             <img
               src={nnmimg}
               className=" w-full ease-in aspect-square object-cover rounded-[50%]"
