@@ -82,7 +82,7 @@ const Hero = () => {
             </button>
           </Link>
           <a
-            href="https://drive.google.com/file/d/1oUyU-nZVlFpIYZfOHTa5iXHwSrSnnOp7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1AJYMUQzwQjCwKg7MKyADI-Tw8isW6fpS/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -101,7 +101,7 @@ const Hero = () => {
             <p>for Tech Roles?</p>
           </div>
           <a
-            href="https://drive.google.com/file/d/1oUyU-nZVlFpIYZfOHTa5iXHwSrSnnOp7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1AJYMUQzwQjCwKg7MKyADI-Tw8isW6fpS/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -38,7 +38,7 @@ To run the portfolio project locally, follow these steps:
 1. Clone this repository to your local machine using the following command:
 
    ```
-   links will go here 
+   https://github.com/NirpendraNathMishra/portfolio.git
    ```
 
 2. Navigate to the project directory:
