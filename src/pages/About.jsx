@@ -64,7 +64,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="sm:w-[3000px] w-1/2 m-auto">
+          <div className="sm:w-[2500px] w-1/2 m-auto">
             <img
               src={nnmimg}
               className=" w-full ease-in aspect-square object-cover rounded-[50%]"
