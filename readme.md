@@ -3,7 +3,7 @@
 This repository contains my portfolio project created using React, React Router, Tailwind CSS, and Framer Motion.
 
 
-![image]link will go here
+![image](https://github.com/NirpendraNathMishra/portfolio/blob/main/src/assets/projectscreenshots/portfolio.png)
 
 
 ## Project Overview
