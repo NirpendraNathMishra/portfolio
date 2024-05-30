@@ -47,7 +47,7 @@ const About = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis">
               Nirpendra Nath Mishra
             </span>
-             A tech enthusiast and computer science scholar from Darbhanga, Bihar, India. I am currently pursuing my MCA at Amity University and serving as an Intern at Jio Platforms Limited. I have a strong technical background with experience in MongoDB, Express.js, Node.js, React, JavaScript, HTML, and CSS3. <br /> 
+             A tech enthusiast and computer science scholar from Darbhanga, Bihar, India. I am currently pursuing my MCA at Amity University and serving as an Intern at Jio Platforms Limited. <br /> 
             <br />
             I enjoy Web Dev and Open Source, working with Go, Cloudflare, and Kubernetes. <br /> I share tech insights on my socials and am always open to new opportunities and collaborations.
           </p>
