@@ -67,11 +67,9 @@ export const project = [
         value:
           "Jio Bot Uses Gpt3.5 To Generate Test Cases from User Story and its accptance Criteria.it can also be fine tuned on your own data to generate test cases.",
       },
-      {
-        value: "Runs on Cloudflare Workers.",
-      },
+
     ],
-    link: "https://gitcard-generator.vercel.app/",
+    link: "https://jiobot.vercel.app/",
     gitlink: "https://github.com/NirpendraNathMishra/jiobotnirpendra",
   },
   {
